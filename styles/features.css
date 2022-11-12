@@ -84,3 +84,10 @@
 }
 
 }
+
+/* @media (max-width:380px){
+
+    .features__row{
+        gap:0;
+    }
+} */

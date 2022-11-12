@@ -3,7 +3,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     height: max-content;
     max-height:912px;
     padding-top:1rem;
@@ -79,24 +79,24 @@
   }
 
 
-  .reviews__next_btn::after{
+  /* .reviews__next_btn::after{
       content: "";
       position: absolute;
       width: 98%;
       height: 98%;
-      border-radius: 100%;
+      border-radius: 100%; */
       /* border: 8px solid transparent; */
       /* animation: nextBtn 1s infinite; */
-  }
+  /* }
   .reviews__prev_btn::after{
       content: "";
       position: absolute;
       width: 98%;
       height: 98%;
-      border-radius: 100%;
+      border-radius: 100%; */
       /* border: 8px solid transparent; */
       /* animation: nextBtn 1s infinite; */
-  }
+  /* } */
   .reviews__card {
     border-radius: 12px;
     box-shadow: 0px 0px 22.4425px rgba(0, 0, 0, 0.05);
@@ -237,11 +237,11 @@
   }
   .reviews__next_btn{
     /* display: none; */
-    left:2%;
+    left:0%;
   }
   .reviews__prev_btn{
     /* display: none; */
-    right:2%;
+    right:0%;
   }
   .reviewBgMargin{
     margin:-8% 0 -8%  0;
@@ -252,9 +252,10 @@
   } */
   .reviews__card{
     width: 60%;
-    height: 300px;
-    min-width: 400px;
+    height: fit-content;
+    min-width: 60%;
     margin:auto;
+    padding:2rem 0;
     /* border:1px solid red; */
   }
   .reviews__card_description{
@@ -298,5 +299,29 @@
   @media (max-width: 460px) {
     .reviewBgMargin{
       margin-top: -3rem;
+    }
+  }
+
+  @media (max-width: 378px) {
+    .user_profile_container {
+      width:40px;
+      height:40px;
+      margin: 0 0.3rem;
+    }
+    .user_profile_img{
+      /* border:0.949539px solid #FFFFFF; */
+      width:30px;
+      height:30px;
+      /* margin:1rem auto; */
+    }
+    
+    .active, .user_profile_container:nth-child(3) {
+      width:62px;
+      height:62px;
+    }
+    .active,.user_profile_container:nth-child(3)>.user_profile_img{
+      width:56px;
+      height:56px;
+      margin:0.2rem auto;
     }
   }
