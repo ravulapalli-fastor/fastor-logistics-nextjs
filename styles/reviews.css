@@ -186,6 +186,24 @@
   .reviewBgMargin{
     margin-top:-1.5rem
   }
+  .reviews_up_bg{
+    background:url("../public/storeNeedUp.svg");
+    /* background-position: center; */
+    background-size:cover;
+    width:100vw;
+    height:125px;
+    margin-top: -1rem;
+    margin-bottom:-1rem;
+  }
+  .reviews_down_bg{
+    background:url("../public/storeNeedDown.svg");
+    /* background-position: center; */
+    background-size:cover;
+    width:100vw;
+    height:125px;
+    margin-top: -1rem;
+    margin-bottom:-1rem;
+  }
   
   @keyframes nextBtn {
     0% {

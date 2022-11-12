@@ -349,13 +349,14 @@ export default function Home(){
 
     {/* <!-- reviews start --> */}
       <section className="reviews_section">
-        <Image
+        {/* <Image
           style={{width: "100%"}}
           src={StoreNeedUp}
           // className="reviewBgMargin"
           id="review_up_bg"
           alt=""
-        />
+        /> */}
+        <div className="reviews_up_bg"></div>
         {/* <!--reviews carousel start--> */}
         <div className="reviews__container">
           <h1 className="reviews__heading">
@@ -402,12 +403,14 @@ export default function Home(){
        </div>
       </div>
         {/* <!--reviews carousel end--> */}
-        <Image
+        {/* <Image
           style={{width: "100%"}}
           src={StoreNeedDown}
           className="reviewBgMargin"
           alt=""
-        />
+        /> */}
+        <div className="reviews_down_bg"></div>
+
       </section>
       {/* <!-- reviews end --> */}
 
