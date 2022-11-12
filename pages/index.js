@@ -145,7 +145,7 @@ export default function Home(){
       const [initialReviewIndex,setReviewIndex]=useState(Math.floor(reviews_data_obj.length/2));
 
        var userProfileImgArr=[
-        "../public/facebook.svg",        
+        "../public/reviewImg1.png",        
         "../public/reviewImg2.png",
         "../public/reviewImg3.png",        
         "../public/reviewImg4.png",
