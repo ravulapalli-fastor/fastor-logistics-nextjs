@@ -177,7 +177,8 @@ export default function Home(){
       }
       useEffect(()=>{
         displayReviewCard(initialReviewIndex);
-    },[initialReviewIndex,displayReviewCard])
+    },[initialReviewIndex])
+    // ,displayReviewCard
             // scroll left
             function scrollLeftOnClicked(elmentclassName) {
                 var container = document.querySelector(`.${elmentclassName}`);
